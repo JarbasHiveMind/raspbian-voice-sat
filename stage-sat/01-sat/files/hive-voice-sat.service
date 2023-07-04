@@ -1,0 +1,17 @@
+[Unit]
+Description=HiveMind Voice Satellite
+After=pulseaudio.service
+
+[Service]
+Type=simple
+ExecStart=/usr/libexec/hive_systemd_voice_sat
+TimeoutStartSec=1m
+TimeoutStopSec=1m
+Restart=on-failure
+StartLimitInterval=5min
+StartLimitBurst=4
+#StartLimitAction=reboot-force
+#WatchdogSec=30s
+
+[Install]
+WantedBy=default.target

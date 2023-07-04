@@ -1,0 +1,21 @@
+#!/bin/bash
+echo -e "\e[31m"
+echo "          _   _                _   _            _  ____         _   "
+echo "         | | | |_ __   __ ___ |  V  | _ _ _   _| |/ ___| __ _ _| |_ "
+echo "         | |_| | |\ \ / // _ \| \ / || | '_ \/   |\___ \/  ' |_   _|"
+echo "         |  _  | | \ V /|  __/| |V| || | | | | | ||___) | |  | | |  "
+echo "         |_| |_|_|  \ /  \___||_| |_||_|_| |_\___/|____/\__'_| |_|  "
+echo "                                                                    "
+echo -e "\e[0m"
+echo "               --- Welcome to HiveMindVoiceSatellite ---            "
+echo "                     VOICE SATELLITE Edition v0.0.1                 "
+echo
+echo
+echo "ON FIRST BOOT ONLY - (or if credentials have changed)"
+echo ""
+echo "Change the values of --host, --key, and --password"
+echo "  in the file /usr/libexec/hive_systemd_voice_sat to"
+echo "  match the credentials on your HiveMind Server"
+echo "  and restart the service with the command"
+echo "  `systemctl --user restart hive-voice-sat.service`"
+echo ""

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+hivemind-voice-sat --host "ws://<CHANGE_THIS>" --key "<CHANGE_THIS>" --password "<CHANGE_THIS>"
