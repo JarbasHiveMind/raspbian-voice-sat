@@ -16,6 +16,6 @@ jobs:
           host: ovosimages.ziggyai.online
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          port: 11226
+          port: ${{ secrets.PORT }}
           source: "README.md"
           target: "raspbian"
