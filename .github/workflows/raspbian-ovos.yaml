@@ -128,7 +128,7 @@ jobs:
           host: ovosimages.ziggyai.online
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          port: 11226
+          port: ${{ secrets.PORT  }}
           source: "${{ steps.build.outputs.image-path }}"
           target: "raspbian/.voicesat"
           strip_components: 4
