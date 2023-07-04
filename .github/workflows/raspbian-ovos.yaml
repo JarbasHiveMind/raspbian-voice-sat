@@ -130,6 +130,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT  }}
           source: "${{ steps.build.outputs.image-path }}"
-          target: "raspbian/.voicesat"
+          target: "raspbian/hivemind/voicesat"
           strip_components: 4
           
