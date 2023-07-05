@@ -6,7 +6,7 @@
 
 Simple voice satellite for a [HiveMindServer](https://github.com/JarbasHiveMind/HiveMind-core)
 
-Pre-built images can be found on the TBD.
+Pre-built images can be found on the on the [HiveMind Download Page](https://ovosimages.ziggyai.online/raspbian/hivemind/).
 
 Check out the [community documentation](https://jarbashivemind.github.io/HiveMind-community-docs/) for information.
 
