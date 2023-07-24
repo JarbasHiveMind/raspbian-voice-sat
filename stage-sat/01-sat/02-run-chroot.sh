@@ -1,5 +1,8 @@
 # rust stuff
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | bash
+wget https://static.rust-lang.org/rustup/dist/armv7-unknown-linux-gnueabihf/rustup-init
+chmod +x rustup-init
+./rustup-init
+rm rustup-init
 
 pip3 install -U pip
 
