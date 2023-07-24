@@ -1,4 +1,9 @@
-pip3 install cryptography --no-binary cryptography
+# rust stuff
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | bash
+
+pip3 install -U pip
+
+pip3 install git+https://github.com/pyca/cryptography
 
 pip3 install git+https://github.com/JarbasHiveMind/HiveMind-voice-sat
 pip3 install git+https://github.com/JarbasHiveMind/hivemind_websocket_client
