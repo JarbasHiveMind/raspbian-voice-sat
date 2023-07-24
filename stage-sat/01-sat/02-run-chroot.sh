@@ -1,7 +1,7 @@
 # rust stuff
 wget https://static.rust-lang.org/rustup/dist/armv7-unknown-linux-gnueabihf/rustup-init
 chmod +x rustup-init
-./rustup-init
+./rustup-init -y
 rm rustup-init
 
 pip3 install -U pip
